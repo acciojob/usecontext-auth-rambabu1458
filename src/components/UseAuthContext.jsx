@@ -6,7 +6,7 @@ const UseAuthContext = () => {
   return (
     <div>
       <h1>Click on the checkbox to get authenticated</h1>
-      <p className="authText">{isHuman ? "You are not authenticated, you can proceed" : "you are not authenticated"}</p>
+      <p className="authText">{isHuman ? "You are now authenticated, you can proceed" : "you are not authenticated"}</p>
       <input
         type="checkbox"
         value={isHuman}
